@@ -4,8 +4,10 @@ class AddNumberForm extends React.Component {
     render() {
         return (
             <form>
-                <input type="text" placeholder="Number..." />
-                <button>Add</button>
+                <div className="inputWrapper">
+                    <input type="text" placeholder="Enter your number" />
+                </div>
+                <button className="addNumber">Submit</button>
             </form>
         );
     }

@@ -8,9 +8,6 @@ class Choose extends React.Component {
                 <Link className="primaryButton" to="/add">
                     Ввести данные
                 </Link>
-                <Link className="primaryButton" to="/list">
-                    Загрузить список кодов
-                </Link>
             </React.Fragment>
         );
     }
